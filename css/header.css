@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Philosopher";
+  src: url("../fonts/PHILOSOPHER-BOLD.TTF"); }
+@font-face {
+  font-family: "Philosopher-regular";
+  src: url("../fonts/PHILOSOPHER-REGULAR.TTF"); }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    padding: 0px; } }
+.menu-top {
+  height: 40px;
+  background: #c60706; }
+  .menu-top .menu-top-left {
+    padding-top: 6px;
+    float: left;
+    font-family: 'Open Sans', sans-serif; }
+    .menu-top .menu-top-left .address {
+      float: left;
+      padding-right: 12px; }
+      .menu-top .menu-top-left .address i {
+        font-size: 13px;
+        margin-right: 5px;
+        color: #ffffff; }
+      .menu-top .menu-top-left .address a {
+        font-weight: 400;
+        font-size: 13px;
+        color: #ffffff; }
+      @media (max-width: 992px) {
+        .menu-top .menu-top-left .address {
+          display: none; } }
+    .menu-top .menu-top-left .address-2 {
+      float: left;
+      padding-left: 12px; }
+      .menu-top .menu-top-left .address-2 i {
+        font-size: 13px;
+        margin-right: 5px;
+        color: #ffffff; }
+      .menu-top .menu-top-left .address-2 a {
+        font-weight: 400;
+        font-size: 13px;
+        color: #ffffff; }
+      @media (max-width: 576px) {
+        .menu-top .menu-top-left .address-2 {
+          display: none; } }
+    .menu-top .menu-top-left .md {
+      float: left;
+      color: #ffffff; }
+      @media (max-width: 992px) {
+        .menu-top .menu-top-left .md {
+          display: none; } }
+  .menu-top .menu-top-right {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 6px; }
+    .menu-top .menu-top-right .login {
+      float: left; }
+      .menu-top .menu-top-right .login i {
+        color: #fff;
+        font-size: 13px; }
+      .menu-top .menu-top-right .login span {
+        color: #fff;
+        font-size: 13px; }
+      .menu-top .menu-top-right .login a {
+        color: #fff;
+        font-size: 13px; }
+      @media (max-width: 992px) {
+        .menu-top .menu-top-right .login {
+          display: none; } }
+    .menu-top .menu-top-right .search {
+      margin-left: 15px;
+      float: left; }
+      .menu-top .menu-top-right .search i {
+        color: #fff;
+        font-size: 13px; }
+      .menu-top .menu-top-right .search span {
+        color: #fff;
+        font-size: 13px; }
+      .menu-top .menu-top-right .search a {
+        color: #fff;
+        font-size: 13px; }
+    .menu-top .menu-top-right .car {
+      float: left;
+      margin-left: 15px; }
+      .menu-top .menu-top-right .car i {
+        color: #fff;
+        font-size: 13px; }
+      .menu-top .menu-top-right .car span {
+        color: #fff;
+        font-size: 13px; }
+      .menu-top .menu-top-right .car a {
+        color: #fff;
+        font-size: 13px; }
+
+.menu {
+  width: 100%;
+  position: relative;
+  background: white; }
+  @media (max-width: 1200px) {
+    .menu {
+      height: 62px; } }
+  .menu .menu-left {
+    width: 50%;
+    float: left;
+    padding: 35px 0px;
+    transition: all 1s; }
+    @media (max-width: 1200px) {
+      .menu .menu-left {
+        display: none; } }
+    .menu .menu-left ul {
+      margin: 0px;
+      padding: 0px; }
+      .menu .menu-left ul li {
+        display: inline-block;
+        padding: 10px 15px 10px 0px; }
+        .menu .menu-left ul li a {
+          font-family: 'Philosopher';
+          font-size: 15px;
+          font-weight: 700;
+          color: #c60706; }
+  .menu .menu-btn-show {
+    float: right;
+    margin-top: 17px; }
+    @media (max-width: 1200px) {
+      .menu .menu-btn-show {
+        display: block; } }
+  .menu .menu-right {
+    width: 50%;
+    float: right;
+    padding: 35px 0px;
+    transition: all 1s; }
+    .menu .menu-right ul {
+      margin: 0px;
+      padding: 0px;
+      float: right; }
+      .menu .menu-right ul li {
+        display: inline-block;
+        padding: 10px 15px 10px 0px; }
+        .menu .menu-right ul li a {
+          font-family: 'Philosopher', sans-serif;
+          font-size: 15px;
+          font-weight: 700;
+          color: #c60706; }
+    @media (max-width: 1200px) {
+      .menu .menu-right {
+        display: none; } }
+  .menu .logo {
+    position: absolute;
+    left: 0px;
+    right: -50px;
+    width: 220px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    top: 0px;
+    background: #fff;
+    padding-top: 20px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    transition: all 1s; }
+    .menu .logo img {
+      transition: all .1s; }
+  .menu .container {
+    transition: all 3s; }
+    .menu .container::after {
+      clear: both; }
+
+/*# sourceMappingURL=header.css.map */
