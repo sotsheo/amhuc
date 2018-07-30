@@ -1,0 +1,105 @@
+footer{
+	background: url("../images/bg-footer.png");
+	.col-lg-4{
+		margin:70px 0px;
+		.contact-logo{
+			text-align:center;
+		}
+		.content-logo{
+			p{
+				color:#cfcfd0;
+				font-size: 14px;
+			    font-family: 'Open Sans', sans-serif;
+			    margin:25px 0px;
+			}
+			ul li{
+				display: inline-block;
+				padding:0px 15px;
+				a{
+					color:white;
+				}
+			}
+		}
+
+		.title-if{
+			h2{
+				font-size:25px;
+				font-family: 'Philosopher-regular';
+				color:white;
+			}
+			
+			
+			
+		}
+		.item-f{
+			margin-top:25px;
+		}
+		.content-if{
+			.img-item{
+					float:left;
+					i{
+					padding: 15px 20px;
+					border:1px solid #404246;
+					border-radius:50%;
+					color:#cfd0d0;
+				}
+
+			}
+			.name-item{
+				margin-left:20px;
+				float:left;
+				p{
+					 font-family: 'Open Sans', sans-serif;
+					 margin:0px;
+					&:first-child{
+						font-family: 'Philosopher';
+						font-size:16px;
+						color:white;
+
+					}
+					&:last-child{
+						 font-family: 'Open Sans', sans-serif;
+					font-size:14px;
+						color:#bfbfc0;
+					}
+				}
+				
+			}
+		}
+		.content{
+			 	font-family: 'Open Sans', sans-serif;
+					font-size:14px;
+					color:white;
+					form{
+						input{
+							width:100%;
+							padding:17px 25px;
+							border-radius:43px;
+							outline: none;
+							background: transparent;
+							border:1px solid #57595e;
+						}
+						input[type="submit"]{
+							margin-top:15px;
+							background: #57595d;
+							border:none;
+							color:white;
+						}
+						
+					}
+		}
+	}
+	hr{
+		background: #3e3f40;
+		height: 2px;
+	}
+}
+
+.designed{
+	text-align:center;
+	a{
+		 font-family: 'Open Sans', sans-serif;
+					font-size:13px;
+					color:#6b6c6e;
+	}
+}

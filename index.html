@@ -19,15 +19,33 @@
 		<link rel="stylesheet" type="text/css" href="css/page/index.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_bar.css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
-		 <style type="text/css">
-  
-
-    
-
-    
-  </style>
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
 	</head>
 <body>
+
+
+<!-- Phone -->
+<div class="phone-hn">
+	<div class="icon-phone">
+		<i class="fa fa-phone" aria-hidden="true"></i>
+	</div>
+	<div class="content-phone">
+		<a href="">098 17827 68</a>
+		<p>Đại lộ Thiên Trường,Nam Định</p>
+	</div>
+</div>
+
+<!-- Phone -->
+<div class="phone-hn phone-nd">
+	<div class="icon-phone">
+		<i class="fa fa-phone" aria-hidden="true"></i>
+	</div>
+	<div class="content-phone">
+		<a href="">098 17827 68</a>
+		<p>Đại lộ Thiên Trường,Nam Định</p>
+	</div>
+</div>
+<!-- End phone -->
 
 
 	<div class="menu-bar-mobile" tabindex="-1" style="display: none;">
@@ -67,7 +85,7 @@
     
 		</div>
 	<!-- Header -->
-		<head>
+	<head>
 			
 			<!-- Header top -->
 
@@ -100,6 +118,12 @@
 						<div class="search">
 							<i class="fa fa-search" aria-hidden="true"></i>
 							<span>Tìm kiếm</span>
+							<div class="form-search">
+								<form>
+									<input type="text" name="" placeholder="Nhập món ăn">
+									<button><i class="fa fa-search" aria-hidden="true"></i></button>
+								</form>
+							</div>
 						</div>
 
 						<div class="car">
@@ -118,7 +142,22 @@
 				<div class="container">
 					<div class="menu-left">
 						<ul>
-							<li><a href="">TRANG CHỦ</a></li>
+							<li>
+								<a href="">TRANG CHỦ</a>
+								<ul class="menu-one">
+									<li><a href="">TRANG CHỦ 1</a></li>
+									<li><a href="">TRANG CHỦ 2</a></li>
+									<li><a href="">TRANG CHỦ 3</a></li>
+									<li><a href="">TRANG CHỦ 4</a>
+										<ul class="menu-2">
+											<li><a href="">TRANG CHỦ 1</a></li>
+											<li><a href="">TRANG CHỦ 2</a></li>
+											<li><a href="">TRANG CHỦ 3</a></li>
+											<li><a href="">TRANG CHỦ 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
 							<li><a href="">NHÀ HÀNG</a></li>
 							<li><a href="">THỰC ĐƠN</a></li>
 							<li><a href="">GIAN HÀNG</a></li>
@@ -149,27 +188,136 @@
 					<div style="clear:both;"></div>
 				</div>
 			</div>
-		</head>
+	</head>
 	<!-- End header -->
 
 	<div class="slide">
-		<img src="images/slide.png" width="100%">
+
+		<section class="lazys slider" data-sizes="50vw">
+		    <div>
+		      <img data-lazy="images/slide.png"  data-srcset="images/slide.png, images/slide.png" data-sizes="100vw">
+		    </div>
+		    <div>
+		      <img data-lazy="images/slide.png"  data-srcset="images/slide.png, images/slide.png" data-sizes="100vw">
+		    </div>
+		    <div>
+		      <img data-lazy="images/slide.png"  data-srcset="images/slide.png, images/slide.png" data-sizes="100vw">
+		    </div>
+		    <div>
+		      <img data-lazy="images/slide.png"  data-srcset="images/slide.png, images/slide.png" data-sizes="100vw">
+		    </div>
+		    <div>
+		      <img data-lazy="images/slide.png"  data-srcset="images/slide.png, images/slide.png" data-sizes="100vw">
+		    </div>
+		    <div>
+		      <!-- this slide should inherit the sizes attr from the parent slider -->
+		      <img data-lazy="images/slide.png"  data-srcset="images/slide.png, images/slide.png">
+		    </div>
+  		</section>
+		<!-- <img src="images/slide.png" width="100%"> -->
 	</div>
 
+
+	<!-- main -->
 	<div class="main">
+
 		<div class="about">
 			<img src="images/about_img.png">
 
 		</div>
 		<div class="cuisine">
 
-
-			<img src="images/amthuc.png">
+			<div class="title-c">
+				<div class="container">
+					<div class="title-cuisine">
+						<img src="images/left-title.png">
+						<span>ẨM THỰC ĐẠI LÂM</span>
+						<img src="images/right-title.png">
+					</div>	
+				</div>
+			</div>
+			
 			<div class="container">
 				<div class="content-cuisine">
 				
 				<p>"Sắc đỏ trầm của gạch mộc, mái ngói cùng màu xanh dịu mát của những hàng tre trúc là "chất xúc tác" dễ dàng đưa thức khách trở về với những miền ký ức thôn quê ,dân dã và yên bình. Với những người cần một không gian quê Việt mộc mạc ngay trung tâm Hà Nội phồn hoa,náo nhiệt, làng ẩm thực Đại Lâm đã chiếm trọn trái tim của họ ngay từ ánh mắt đầu tiên như thế nào </p>
 				</div>
+			</div>
+
+
+			<div class="slide-c">
+				<section class="slide-cuisine slide-booth">
+
+						    <div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/thitde.jpg"></a>
+						      </div>
+
+						     
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/thitbe.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/thitbo.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/thitcua.jpg"></a>
+						      </div>
+						      
+
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/thitde.jpg"></a>
+						      </div>
+
+						      
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/thitde.jpg"></a>
+						      </div>
+						      
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/product1.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/product1.jpg"></a>
+						      </div>
+						      
+							</div>
+				</section>
+
 			</div>
 
 
@@ -182,12 +330,20 @@
 			
 				<div class="title-menu">
 					<div class="container">
-						<img src="images/title.png">
+						<div class="title-c">
+							<div class="container">
+								<div class="title-category">
+									<img src="images/left-title.png">
+									<span>ẨM THỰC ĐẠI LÂM</span>
+									<img src="images/right-title.png">
+								</div>	
+							</div>
+						</div>
 						<div class="content-menu">
 						<p>Thấu hiểu giá trị của sức khỏe là điều quý giá nhất đối với mỗi người,đội ngũ nhân viên nhà hàng Đại Lâm đã quyết tâm mang tất cả tâm huyết và niềm đam mê ẩm thực để làm ra những món ăn ngon,hấp dẫn,đạm vị quê hương vì sức khỏe của cộng đồng</p>
 						</div>
 
-						<section class="regular menu-category">
+						<section class="regular menu-categorys">
 
 						    <div>
 						      <div class="title-menu1">
@@ -924,19 +1080,19 @@
 							
 							<section class="lazy slider" data-sizes="50vw">
 						    <div>
-						      <img data-lazy="images/slide-product.jpg" data-srcset="images/slide-product.jpg, images/slide-product.jpg" data-sizes="100vw">
+						      <img data-lazy="images/thitbe.jpg" data-srcset="images/thitbe.jpg, images/thitbe.jpg" data-sizes="100vw">
 						    </div>
 						    <div>
-						      <img data-lazy="images/slide-product.jpgw" data-srcset="images/slide-product.jpg, images/slide-product.jpg" data-sizes="100vw">
+						      <img data-lazy="images/thitbe.jpg" data-srcset="images/thitbe.jpg, images/thitbe.jpg" data-sizes="100vw">
 						    </div>
 						    <div>
-						      <img data-lazy="images/slide-product.jpg"  data-srcset="images/slide-product.jpg, images/slide-product.jpg" data-sizes="100vw">
+						      <img data-lazy="images/thitbe.jpg"  data-srcset="images/thitbe.jpg, images/thitbe.jpg" data-sizes="100vw">
 						    </div>
 						    <div>
-						      <img data-lazy="images/slide-product.jpg"  data-srcset="images/slide-product.jpg, images/slide-product.jpg" data-sizes="100vw">
+						      <img data-lazy="images/thitbe.jpg"  data-srcset="images/thitbe.jpg, images/thitbe.jpg" data-sizes="100vw">
 						    </div>
 						    <div>
-						      <img data-lazy="images/slide-product.jpg"  data-srcset="images/slide-product.jpg, images/slide-product.jpg" data-sizes="100vw">
+						      <img data-lazy="images/thitbe.jpg"  data-srcset="images/thitbe.jpg, images/thitbe.jpg" data-sizes="100vw">
 						    </div>
 						  
 						 </section>
@@ -1039,10 +1195,12 @@
 
 
 				
+				<div class="clear"></div>
 			</div>
 		
 		</div>
 
+		<!-- Booth -->
 		<div class="booth">
 
 			<div class="title-b">
@@ -1150,7 +1308,7 @@
 						      	<h2><a>Thit dê</a></h2>
 						      </div>
 							</div>
-						</section>
+				</section>
 
 			</div>
 
@@ -1158,10 +1316,334 @@
 	
 		</div>
 
+		<!-- End Booth -->
 
 
+		<div class="news">
+
+
+				<div class="title-n">
+					<div class="container">
+						<div class="title-news">
+							<img src="images/left-title.png">
+							<span>TIN TỨC NHÀ HÀNG</span>
+							<img src="images/right-title.png">
+						</div>	
+					</div>
+				</div>
+
+				<div class="content-news">
+					<div class="container">
+
+						<div class="content-left">
+							<div class="items-news">
+								<div class="img-item">
+									<a href="#"><img src="images/imgitem.jpg"></a>
+								</div>
+								<div class="content-item">
+									<h2><a href="">Món ngon quê nhà: Đặc sản rừng  Cà Mau</a></h2>
+									<p class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i> <span>13/07/2018</span></p>
+									<p>Sắc đỏ trầm của gạch mộc,mái ngói cùng màu xanh du mát của những hàng tre trúc "Chất xúc"</p>
+									<a href="">--- Đọc tiếp</a>
+								</div>
+							</div>
+							
+							<div class="items-news">
+								<div class="img-item">
+									<a href="#"><img src="images/imgitem.jpg"></a>
+								</div>
+								<div class="content-item">
+									<h2><a>Món ngon quê nhà: Đặc sản rừng  Cà Mau</a></h2>
+									<p class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i> <span>13/07/2018</span></p>
+									<p>Sắc đỏ trầm của gạch mộc,mái ngói cùng màu xanh du mát của những hàng tre trúc "Chất xúc"</p>
+									<a>--- Đọc tiếp</a>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+						
+
+						<div class="content-left">
+							<div class="items-news">
+								<div class="img-item">
+									<a href="#"><img src="images/imgitem.jpg"></a>
+								</div>
+								<div class="content-item">
+									<h2><a href="">Món ngon quê nhà: Đặc sản rừng  Cà Mau</a></h2>
+									<p class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i> <span>13/07/2018</span></p>
+									<p>Sắc đỏ trầm của gạch mộc,mái ngói cùng màu xanh du mát của những hàng tre trúc "Chất xúc"</p>
+									<a href="">--- Đọc tiếp</a>
+								</div>
+							</div>
+							
+							<div class="items-news">
+								<div class="img-item">
+									<a href="#"><img src="images/imgitem.jpg"></a>
+								</div>
+								<div class="content-item">
+									<h2><a>Món ngon quê nhà: Đặc sản rừng  Cà Mau</a></h2>
+									<p class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i> <span>13/07/2018</span></p>
+									<p>Sắc đỏ trầm của gạch mộc,mái ngói cùng màu xanh du mát của những hàng tre trúc "Chất xúc"</p>
+									<a>--- Đọc tiếp</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					
+
+					
+					
+				</div>
+				<div class="clear"></div>
+		</div>
+
+
+		<div class="address-contact">
+			<div class="container">
+						<div class="title-news">
+							<img src="images/left-title.png">
+							<span>ĐỊA CHỈ LIÊN HỆ</span>
+							<img src="images/right-title.png">
+						</div>	
+			</div>
+
+			<div class="container">
+				<div class="row">
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="img-map">
+							<a href=""><img src="images/map1.jpg"></a>
+						</div>
+						<div class="name-map">
+							
+							<h2>Cơ sở 1:Nam Định</h2>
+							<hr>
+							<p><b> <i class="fa fa-map-marker" aria-hidden="true"></i> Địa chỉ :</b>Đại Lộ Thiên Trường Nam Định,Nam Định</p>
+							<p><b><i class="fa fa-map-marker" aria-hidden="true"></i> Holine :</b>0984 351 588 - 0981 782 768</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="img-map">
+							<a href=""><img src="images/map2.jpg"></a>
+						</div>
+						<div class="name-map">
+							
+							<h2>Cơ sở 2:Hà Nội</h2>
+							<hr>
+							<p><b> <i class="fa fa-map-marker" aria-hidden="true"></i> Địa chỉ :</b>18 Đỗ Nhuận,Xuân Đỉnh,Từ Liêm,HN</p>
+							<p><b><i class="fa fa-map-marker" aria-hidden="true"></i> Holine :</b>094 723 2136</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="photo-library">
+			<div class="container">
+						<div class="title-news">
+							<img src="images/left-title.png">
+							<span>THƯ VIỆN ẢNH</span>
+							<img src="images/right-title.png">
+						</div>	
+			</div>
+			<div class="slide-library">
+				<section class="sliders slide-booth">
+
+						    <div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo1.jpg"></a>
+						      </div>
+
+						     
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo2.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/phot3.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo4.jpg"></a>
+						      </div>
+						      
+
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo1.jpg"></a>
+						      </div>
+
+						      
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo2.jpg"></a>
+						      </div>
+						      
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/phot3.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo4.jpg"></a>
+						      </div>
+						      
+							</div>
+
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo4.jpg"></a>
+						      </div>
+						      
+							</div>
+
+							<div>
+						      <div class="img-sile">
+						      	
+									<a href=""><img src="images/photo4.jpg"></a>
+						      </div>
+						      
+							</div>
+				</section>
+			</div>
+
+		</div>
 
 	</div>
+	<!-- End Main -->
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="contact-logo">
+						<div class="img-logo">
+							<a href=""><img src="images/logo.png"></a>
+						</div>
+						<div class="content-logo">
+							<p>Chúng tôi luôn cố gắng để trở thành điểm đến tin cậy của Qúy khách Hàng Hân hạnh được đón tiếp</p>
+							<ul>
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></i></a></li>
+								<li><a href=""><i class="fa fa-tripadvisor" aria-hidden="true"></i></i></a></li>
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></i></a></li>
+
+							</ul>
+						</div>
+
+					</div>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="contact-if">
+						<div class="title-if">
+							<h2>Thông tin liên hệ</h2>
+						</div>
+						<div class="content-if">
+							<div class="item-f">
+								<div class="img-item">
+									<a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+								</div>
+								<div class="name-item">
+									<p>Địa chỉ</p>
+									<p>Đại lộ thiên trường nam Định, Nam Định</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+							
+							<div class="item-f">
+								<div class="img-item">
+									<a href=""><i class="fa fa-phone" aria-hidden="true"></i></a>
+								</div>
+								<div class="name-item">
+									<p>Hontline</p>
+									<p>0984 351 588 - 0981 782 768</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="item-f">
+								<div class="img-item">
+									<a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+								</div>
+								<div class="name-item">
+									<p>Thời gian phục vụ</p>
+									<p>9h:00 -22h30 từ thứ 2 đến chủ nhật</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+								<!-- <li></li>
+								<li><a href=""><<i class="fa fa-phone" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a></li> -->
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="title-if">
+							<h2>Nhận thông tin khuyến mãi</h2>
+					</div>
+					<div class="content">
+						<p>Đăng ký để trở thành người đầu tiên nhận được thông tin về các chương trình giảm giá và thông tin khuyến mại của nhà hàng Đại Lâm</p>
+						<form>
+							<input type="text" name="" placeholder="Nhập địa chỉ email">
+							<input type="submit" name="" value="Đăng ký">
+						</form>
+					</div>
+				</div>
+
+				
+
+			</div>
+		</div>
+		<hr>
+		<div class="designed">
+			<a href="">Copyright 2018 Nhà hàng Đại Lâm .All right reserved -Designed by Nanoweb</a>
+		</div>
+	</footer>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -1183,9 +1665,17 @@
 			}
 
 
-			$(".menu-btn-show").click(function(){
-				$(".menu-bar-mobile").toggle(1000);
-			})
+			$(".menu-btn-show").click(function(event){
+				$(".menu-bar-mobile").toggle(500);				
+				 event.stopPropagation();
+			});
+			$(".phone-hn").click(function(){
+					$(this).children(".content-phone").toggle(1000);
+			});	
+			$(document).click(function(){
+			   $(".menu-bar-mobile").hide(500);	
+			});
+
 		})
 	</script>
 
@@ -1239,35 +1729,39 @@
     
 
        
-	//  $('.lazy').slick({
-	//   slidesToShow: 1,
-	//   slidesToScroll: 1,
-	//   arrows: false,
-	//   fade: true,
-	//   asNavFor: '.vertical-center-4'
-	// });
-	// $('.vertical-center-4').slick({
-	//   slidesToShow: 3,
-	//   slidesToScroll: 1,
-	//   asNavFor: '.lazy',
-	//   dots: true,
-	//   centerMode: true,
-	//   focusOnSelect: true
-	// });
-       $(".lazy").slick({
-          dots: true,
-		  infinite: true,
-		  speed: 300,
-		  slidesToShow: 1,
-		  adaptiveHeight: true
-      });
-      $(".vertical-center-4").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 4,
-        slidesToScroll: 2
-      });
+	 $('.lazy').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  arrows: false,
+	  fade: true,
+	  asNavFor: '.vertical-center-4'
+	});
+	$('.vertical-center-4').slick({
+	  slidesToShow: 4,
+	  slidesToScroll: 1,
+	  asNavFor: '.lazy',
+	  dots: true,
+	  vertical: true,
+      centerMode: true,
+      slidesToShow: 4,
+      prevArrow:"<i class='fa fa-chevron-left ' aria-hidden='true'></i>",
+      nextArrow:"<i class='fa fa-chevron-right ' aria-hidden='true'></i>",
+      slidesToScroll: 2,
+      responsive: [
+		    {
+		      breakpoint: 992,
+		      settings: {
+		      	
+			  infinite: true,
+			  speed: 300,
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			   vertical: false,
+		      }
+		    }
+		]
+	});
+    
 
        
       $('.regulars').slick({
@@ -1310,7 +1804,18 @@
 		  speed: 300,
 		  slidesToShow: 6,
 		  slidesToScroll: 1,
+		   prevArrow:"<i class='fa fa-chevron-left ' aria-hidden='true'></i>",
+      nextArrow:"<i class='fa fa-chevron-right ' aria-hidden='true'></i>",
 		  responsive: [
+		  {
+		      breakpoint: 1600,
+		      settings: {
+		        slidesToShow: 4,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
 		    {
 		      breakpoint: 1200,
 		      settings: {
@@ -1337,6 +1842,96 @@
 		   
 		  ]
 		});
+
+
+      $('.sliders').slick({
+		  dots: true,
+		  infinite: false,
+		  speed: 300,
+		  slidesToShow: 6,
+		  slidesToScroll: 1,
+		  responsive: [
+		  {
+		      breakpoint: 1600,
+		      settings: {
+		        slidesToShow: 4,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 767,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		   
+		  ]
+		});
+
+
+      $('.slide-cuisine').slick({
+		  dots: true,
+		  infinite: false,
+		  speed: 300,
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		   prevArrow:"<i class='fa fa-chevron-left ' aria-hidden='true'></i>",
+      	nextArrow:"<i class='fa fa-chevron-right ' aria-hidden='true'></i>",
+		  responsive: [
+		  
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 767,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		   
+		  ]
+		});
+       $(".lazys").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+
+  //      $('.carousel-content').slick({
+  //     
+  // });
       
     });
 </script>
