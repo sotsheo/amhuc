@@ -91,12 +91,14 @@
 	top: 10px !important;
 }
 .menu-btn-show {
-    position: relative;
+          position: absolute;
     width: 33px;
     height: 27px;
     float: left;
     margin-right: 15px;
     cursor: pointer;
+    right: 0;
+    top: 0;
 }
 .menu-btn-show .border-style {
     width: 100%;

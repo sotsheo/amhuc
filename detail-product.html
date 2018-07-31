@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+
+    <!-- Responsive CSS -->
+ 
+    <script src="js/jquery-1.10.2.js"></script>
+</head>
+<body class="home">
+    
+    
+    
+        <div class="product-page">
+            <div class="detail-product-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="img-detail-product">
+                                <div class="app-figure" id="zoom-fig">
+                                    <div class="big-img">
+                                        <a id="Zoom-1" class="MagicZoom" data-options="selectorTrigger: hover; transitionEffect: false;zoomDistance: 20;zoomWidth:520px; zoomHeight:500px;variableZoom: true" title="Show your product in stunning detail with Magic Zoom Plus." href="http://via.placeholder.com/1000x1000" >
+                                            <img src="http://via.placeholder.com/570x500" alt=""/>
+                                        </a>
+                                        <spam class="discout-price">-10%</spam>
+                                    </div>
+                                    <div class="thumb-img">
+                                        <div id="owl-detail" class="selectors">
+                                            <a data-zoom-id="Zoom-1" href="http://via.placeholder.com/1000x1000"
+                                                data-image="http://via.placeholder.com/500x500">
+                                                <img src="http://via.placeholder.com/500x500"/>
+                                            </a>
+                                            <a data-zoom-id="Zoom-1" href="http://via.placeholder.com/1000x1000/555555"
+                                                data-image="http://via.placeholder.com/500x500/555555" >
+                                                <img src="http://via.placeholder.com/500x500/555555"/>
+                                            </a>
+                                            <a data-zoom-id="Zoom-1" href="http://via.placeholder.com/1000x1000/999999"
+                                                data-image="http://via.placeholder.com/500x500/999999" >
+                                                <img src="http://via.placeholder.com/500x500/999999"/>
+                                            </a>
+                                            <a data-zoom-id="Zoom-1" href="http://via.placeholder.com/1000x1000/3333333"
+                                                data-image="http://via.placeholder.com/500x500/3333333" >
+                                                <img src="http://via.placeholder.com/500x500/3333333"/>
+                                            </a>
+                                            <a data-zoom-id="Zoom-1" href="http://via.placeholder.com/1000x1000/777777"
+                                                data-image="http://via.placeholder.com/500x500/777777" >
+                                                <img src="http://via.placeholder.com/500x500/777777"/>
+                                            </a>
+                                            <a data-zoom-id="Zoom-1" href="http://via.placeholder.com/1000x1000/999999"
+                                                data-image="http://via.placeholder.com/500x500/999999" >
+                                                <img src="http://via.placeholder.com/500x500/999999"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <!-- package san pham moi -->
+           
+           
+   
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+   
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/magiczoomplus.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            $("#owl-detail").owlCarousel({
+                items : 5,
+                navigation : true,
+                pagination: false,
+                navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+                itemsDesktop  :  [900,3],
+                itemsDesktopSmall :  [600,3],
+                itemsTablet :  [560,3],
+                itemsMobile :  [320,2]
+            });
+           
+            
+        });
+    </script>
+    <!-- Main -->    
+   
+</body>
+</html>
+
