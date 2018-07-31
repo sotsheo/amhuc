@@ -1,0 +1,45 @@
+.img-abum {
+  width: 100%;
+  height: 291px; }
+  .img-abum img {
+    width: 100%;
+    height: 100%; }
+
+.pd {
+  padding: 15px; }
+
+.list-page {
+  margin-bottom: 65px; }
+  .list-page ul {
+    margin: 0px;
+    text-align: center; }
+    .list-page ul li {
+      margin: 0px;
+      list-style-type: none;
+      display: inline-block;
+      padding: 15px 2px; }
+      .list-page ul li a {
+        padding: 10px 15px;
+        color: #c60706;
+        border: 1px solid #e5e5e5; }
+      .list-page ul li i {
+        padding: 13px 6px;
+        color: #c60706;
+        width: 50px;
+        border: 1px solid #e5e5e5; }
+      .list-page ul li a:hover {
+        text-decoration: none;
+        background: #c60706;
+        color: white; }
+      .list-page ul li:last-child a {
+        padding: 0px;
+        color: #c60706;
+        border: none; }
+      .list-page ul li:last-child a:hover i {
+        background: #c60706;
+        color: white; }
+
+.main {
+  padding: 45px 0px 45px 0px; }
+
+/*# sourceMappingURL=ambumanh.css.map */

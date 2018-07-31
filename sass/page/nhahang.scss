@@ -1,0 +1,52 @@
+.address-restaurant{
+	padding:65px 0px;
+	h2{
+		font-size:30px;
+			font-family: 'Philosopher-regular';
+			color:#c60706;
+			margin-bottom:20px;
+	}
+	.item-address{
+		margin:15px 0px;;
+	}
+	.img-ad{
+		float:left;
+		i{
+			padding: 15px 20px;
+			border-radius:50%;
+			border:1px solid #c60706;
+			color:#c60706;
+		}
+	}
+	.content-ad{
+			float:left;
+			margin-left:20px;
+			b{
+				font-size:16px;
+				color:#575757;
+				font-family: 'Open Sans', sans-serif;
+				@media (max-width: 370px){
+    					font-size: 14px;
+    				}
+			}
+			p{
+				font-size:14px;
+				color:#575757;
+				font-family: 'Open Sans', sans-serif;
+				@media (max-width: 370px){
+    					font-size: 10px;
+    				}
+			}
+	}
+	.add-img{
+		padding:20px;
+		background: url("../../images/bg-add.jpg");
+		text-align:center;
+		img{
+			width: 100%;
+		}
+	}
+	.md{
+		padding:33px 0px;
+	}
+}

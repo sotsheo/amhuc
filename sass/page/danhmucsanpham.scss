@@ -1,0 +1,95 @@
+.main{
+	padding:50px 0px;
+	.category{
+		h2{
+			font-size:18px;
+			font-family: 'Philosopher';
+			padding: 20px 0px;
+			text-align:center;
+			color:white;
+			background: url("../../images/bg-menu1.jpg");
+			margin:0px;
+		}
+		ul{
+			margin:0px;
+			padding: 0;
+			li{
+				margin:0px;
+				list-style: none;
+				a{
+					
+					font-size:14px;
+					color:#717171;
+					float:left;
+					padding:20px 0px 20px 35px;
+					border-bottom:1px solid #ebebeb;
+					border-left:1px solid #ebebeb;
+					border-right:1px solid #ebebeb;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.cover{
+		margin-top:40px;
+		h2{
+			font-size:18px;
+			font-family: 'Philosopher';
+			padding: 20px 0px;
+			text-align:center;
+			color:white;
+			background: url("../../images/bg-menu1.jpg");
+			margin:0px;
+		}
+		ul{
+			margin:0px;
+			padding: 0;
+			li{
+				font-family: 'Open Sans', sans-serif;
+				margin:0px;
+				list-style: none;
+				padding:20px 0px 20px 35px;
+				border-bottom:1px solid #ebebeb;
+				border-left:1px solid #ebebeb;
+				font-size:14px;
+				border-right:1px solid #ebebeb;
+				color:#717171;
+				a{
+					font-family: 'Open Sans', sans-serif;
+					color:red;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
+}
+
+.item-product{
+	a:hover{
+	text-decoration: none;
+}
+		.img-product{
+			padding:10px;
+		border:1px solid #e8bf4d;
+			img{
+				width: 100%;
+				height: 245px;
+			}
+		}
+		.name-product{
+			h2{
+				font-family: 'Philosopher-regular';
+				font-size: 25px;
+				color:#c60706;
+				text-align:center;
+				margin:17px 0px;
+			}
+		}
+	}
+
+.mg{
+	@media (max-width: 767px){
+    		margin-top:20px;
+    }
+}

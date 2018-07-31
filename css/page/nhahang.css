@@ -1,0 +1,43 @@
+.address-restaurant {
+  padding: 65px 0px; }
+  .address-restaurant h2 {
+    font-size: 30px;
+    font-family: 'Philosopher-regular';
+    color: #c60706;
+    margin-bottom: 20px; }
+  .address-restaurant .item-address {
+    margin: 15px 0px; }
+  .address-restaurant .img-ad {
+    float: left; }
+    .address-restaurant .img-ad i {
+      padding: 15px 20px;
+      border-radius: 50%;
+      border: 1px solid #c60706;
+      color: #c60706; }
+  .address-restaurant .content-ad {
+    float: left;
+    margin-left: 20px; }
+    .address-restaurant .content-ad b {
+      font-size: 16px;
+      color: #575757;
+      font-family: 'Open Sans', sans-serif; }
+      @media (max-width: 370px) {
+        .address-restaurant .content-ad b {
+          font-size: 14px; } }
+    .address-restaurant .content-ad p {
+      font-size: 14px;
+      color: #575757;
+      font-family: 'Open Sans', sans-serif; }
+      @media (max-width: 370px) {
+        .address-restaurant .content-ad p {
+          font-size: 10px; } }
+  .address-restaurant .add-img {
+    padding: 20px;
+    background: url("../../images/bg-add.jpg");
+    text-align: center; }
+    .address-restaurant .add-img img {
+      width: 100%; }
+  .address-restaurant .md {
+    padding: 33px 0px; }
+
+/*# sourceMappingURL=nhahang.css.map */

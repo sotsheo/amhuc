@@ -1,0 +1,67 @@
+.img-news img {
+  width: 100%; }
+
+.content-news {
+  padding: 20px 0px; }
+  .content-news a:hover {
+    text-decoration: none; }
+  .content-news h2 {
+    font-family: 'Philosopher';
+    font-size: 20px;
+    color: #c60706;
+    margin-bottom: 20px; }
+  .content-news p {
+    font-size: 12px;
+    color: #a7a7a7;
+    font-family: 'Open Sans', sans-serif; }
+    .content-news p b {
+      color: #c60706; }
+    .content-news p a {
+      color: #c60706; }
+    .content-news p span {
+      margin: 0px 15px; }
+    .content-news p i {
+      margin-right: 4px; }
+  .content-news .content {
+    font-size: 14px; }
+  .content-news a {
+    color: #c60706;
+    font-size: 16px; }
+
+.main {
+  padding: 69px 0px; }
+
+.list-page {
+  margin-bottom: 21px; }
+  .list-page ul {
+    margin: 0px;
+    text-align: left;
+    padding: 0px; }
+    .list-page ul li {
+      margin: 0px;
+      list-style-type: none;
+      display: inline-block;
+      padding: 15px 2px; }
+      .list-page ul li a {
+        padding: 10px 15px;
+        color: #c60706;
+        border: 1px solid #e5e5e5; }
+      .list-page ul li i {
+        padding: 13px 6px;
+        color: #c60706;
+        width: 50px;
+        border: 1px solid #e5e5e5; }
+      .list-page ul li a:hover {
+        text-decoration: none;
+        background: #c60706;
+        color: white; }
+      .list-page ul li:last-child a {
+        padding: 0px;
+        color: #c60706;
+        text-align: center;
+        border: none; }
+      .list-page ul li:last-child a:hover i {
+        background: #c60706;
+        color: white; }
+
+/*# sourceMappingURL=tintuc.css.map */

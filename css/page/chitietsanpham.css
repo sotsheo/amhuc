@@ -1,0 +1,174 @@
+.main {
+  padding: 50px 0px; }
+  .main .category h2 {
+    font-size: 18px;
+    font-family: 'Philosopher';
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    background: url("../../images/bg-menu1.jpg");
+    margin: 0px; }
+  .main .category ul {
+    margin: 0px;
+    padding: 0; }
+    .main .category ul li {
+      margin: 0px;
+      list-style: none; }
+      .main .category ul li a {
+        font-size: 14px;
+        color: #717171;
+        float: left;
+        padding: 20px 0px 20px 35px;
+        border-bottom: 1px solid #ebebeb;
+        border-left: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb;
+        width: 100%; }
+  .main .cover {
+    margin-top: 40px; }
+    .main .cover h2 {
+      font-size: 18px;
+      font-family: 'Philosopher';
+      padding: 20px 0px;
+      text-align: center;
+      color: white;
+      background: url("../../images/bg-menu1.jpg");
+      margin: 0px; }
+    .main .cover ul {
+      margin: 0px;
+      padding: 0; }
+      .main .cover ul li {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        list-style: none;
+        padding: 20px 0px 20px 35px;
+        border-bottom: 1px solid #ebebeb;
+        border-left: 1px solid #ebebeb;
+        font-size: 14px;
+        border-right: 1px solid #ebebeb;
+        color: #717171; }
+        .main .cover ul li a {
+          font-family: 'Open Sans', sans-serif;
+          color: red;
+          font-weight: 700; }
+
+.detail-product h2 {
+  font-family: 'Philosopher-regular';
+  font-size: 25px;
+  color: #c60706; }
+.detail-product p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #717171; }
+.detail-product .price {
+  font-size: 18px;
+  color: #c60706; }
+.detail-product input {
+  width: 50px;
+  padding: 3px;
+  text-align: center;
+  font-size: 14px;
+  background: transparent;
+  border: 2px solid #dbdbdb;
+  color: #949494;
+  outline: none; }
+.detail-product button {
+  font-size: 14px;
+  padding: 3px 10px;
+  background: transparent;
+  cursor: pointer;
+  color: #949494;
+  outline: none; }
+.detail-product #up {
+  border-radius: 0px 5px 5px 0px;
+  border-bottom: 2px solid #dbdbdb;
+  border-right: 2px solid #dbdbdb;
+  border-top: 2px solid #dbdbdb;
+  border-left: none; }
+.detail-product #reduction {
+  border-radius: 5px 0px 0px 5px;
+  border-bottom: 2px solid #dbdbdb;
+  border-left: 2px solid #dbdbdb;
+  border-top: 2px solid #dbdbdb;
+  border-right: none; }
+.detail-product a {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  background: #c60706;
+  margin: 20px 0px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+  border-radius: 4px; }
+  .detail-product a i {
+    margin: 0px 10px; }
+  .detail-product a:hover {
+    text-decoration: none; }
+
+.menu-top .menu-top-left {
+  padding-top: 10px; }
+
+.menu-top .menu-top-right {
+  padding-top: 10px; }
+
+.tab-content {
+  padding: 25px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+.nav-tabs li a {
+  color: #717171;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
+.nav-tabs .active a {
+  color: #c60706 !important; }
+
+.product-care h2 {
+  font-family: 'Philosopher-regular';
+  font-size: 25px;
+  color: #c60706;
+  margin-bottom: 30px; }
+
+.list-product .slick-slide {
+  height: auto; }
+.list-product .regularss {
+  margin: 0px; }
+  .list-product .regularss > button {
+    display: none !important; }
+  .list-product .regularss .slick-prev {
+    left: -50px; }
+    .list-product .regularss .slick-prev:before {
+      padding: 10px;
+      background: rgba(226, 167, 6, 0.5);
+      border-radius: 50%;
+      border: 1px solid #e2a706; }
+  .list-product .regularss .slick-next:before {
+    padding: 10px;
+    background: rgba(226, 167, 6, 0.5);
+    border-radius: 50%;
+    border: 1px solid #e2a706; }
+  .list-product .regularss .name-booth h2 {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px; }
+  .list-product .regularss .name-booth a {
+    color: #c60706;
+    font-size: 25px;
+    font-family: 'Philosopher-regular', sans-serif; }
+.list-product .slick-dots {
+  display: none !important; }
+.list-product .img-sile {
+  padding: 8px;
+  border: 1px solid #e2a706; }
+.list-product .slick-slide {
+  margin: 0px 15px; }
+  .list-product .slick-slide img {
+    width: 100%;
+    height: 228px; }
+    @media (max-width: 1200px) {
+      .list-product .slick-slide img {
+        width: 100%; } }
+
+/*# sourceMappingURL=chitietsanpham.css.map */

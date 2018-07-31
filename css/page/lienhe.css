@@ -1,0 +1,81 @@
+.address-contact {
+  padding: 90px 0px;
+  background: url("../../images/bg-addres.jpg"); }
+  .address-contact .title-news {
+    text-align: center;
+    margin-bottom: 35px; }
+    .address-contact .title-news span {
+      font-size: 40px;
+      font-family: 'Philosopher-regular';
+      color: white;
+      margin: 0px 40px; }
+      @media (max-width: 992px) {
+        .address-contact .title-news span {
+          font-size: 30px; } }
+    .address-contact .title-news img {
+      margin-top: -20px; }
+      @media (max-width: 767px) {
+        .address-contact .title-news img {
+          display: none; } }
+  .address-contact .name-map {
+    text-align: center; }
+    .address-contact .name-map h2 {
+      font-family: 'Philosopher-regular';
+      font-size: 25px;
+      color: white;
+      padding: 20px 0px 10px 0px;
+      margin: 0px; }
+    .address-contact .name-map hr {
+      margin: 10px 0px;
+      background: #a33a2a; }
+    .address-contact .name-map p {
+      color: white;
+      margin: 10px 0px 0px 0px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px; }
+  .address-contact .img-map img {
+    width: 100%; }
+
+.confirm-address {
+  padding: 90px 0px; }
+  .confirm-address .title-news {
+    text-align: center;
+    margin-bottom: 35px; }
+    .confirm-address .title-news span {
+      font-size: 40px;
+      font-family: 'Philosopher-regular';
+      color: #c60706;
+      margin: 0px 40px; }
+      @media (max-width: 992px) {
+        .confirm-address .title-news span {
+          font-size: 30px; } }
+    .confirm-address .title-news img {
+      margin-top: -20px; }
+      @media (max-width: 767px) {
+        .confirm-address .title-news img {
+          display: none; } }
+  .confirm-address .form-address p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; }
+  .confirm-address .form-address label {
+    font-size: 13px; }
+  .confirm-address .form-address input[type="text"]::-webkit-input-placeholder {
+    font-style: italic; }
+  .confirm-address .form-address input {
+    width: 100%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px; }
+  .confirm-address .form-address textarea {
+    width: 100%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px; }
+
+.mg {
+  margin-top: 30px; }
+
+/*# sourceMappingURL=lienhe.css.map */

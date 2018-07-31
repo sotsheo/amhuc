@@ -1,0 +1,53 @@
+.list-category {
+  padding: 95px 0px 75px 0px;
+  background: url("../../images/bg-category.png");
+  background-size: cover; }
+  .list-category .regular > button {
+    display: none !important; }
+  .list-category .regular .slick-slide {
+    height: auto; }
+  .list-category .regular .slick-dots {
+    display: none !important; }
+  .list-category .regular .item-c .img-c {
+    text-align: center; }
+    .list-category .regular .item-c .img-c img {
+      width: 69px;
+      height: 69px;
+      margin: 0 auto; }
+  .list-category .regular .name-c {
+    margin: 20px 0px;
+    text-align: center; }
+    .list-category .regular .name-c a {
+      font-family: 'Philosopher';
+      color: #c60706;
+      font-size: 20px;
+      margin: 0px; }
+
+.list-pabulum {
+  padding: 40px 0px; }
+  .list-pabulum .pabulums {
+    padding: 25px 0px;
+    border-bottom: 1px solid #e5e5e5; }
+    .list-pabulum .pabulums .item-pabulum {
+      float: left; }
+      .list-pabulum .pabulums .item-pabulum img {
+        width: 69px;
+        height: 69px;
+        border-radius: 50%; }
+    .list-pabulum .pabulums .content-pabulum {
+      float: left;
+      margin-left: 30px;
+      padding-top: 10px; }
+      .list-pabulum .pabulums .content-pabulum b a {
+        font-family: 'Philosopher';
+        font-size: 16px;
+        color: black; }
+      .list-pabulum .pabulums .content-pabulum p {
+        font-family: 'Philosopher';
+        font-size: 14px; }
+
+.mg {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=thucdon.css.map */

@@ -1,0 +1,77 @@
+.list-category{
+	padding:95px 0px 75px 0px;
+	background: url("../../images/bg-category.png");
+	background-size:cover;
+	.regular {
+		
+		 >button{
+		 	display: none !important;
+		 }
+		 .slick-slide{
+		 	height: auto;
+		 }
+		 .slick-dots{
+		 	display: none !important;
+		 }
+		 .item-c{
+
+		 	.img-c{
+		 		text-align:center;
+		 		img{
+		 			width: 69px;
+		 			height:69px;
+		 			margin:0 auto;
+		 		}
+		 		
+		 	}
+		 }
+		 .name-c{
+		 	margin:20px 0px;
+		 	text-align:center;
+		 	a{
+		 		
+		 		font-family: 'Philosopher';
+		 		color:#c60706;
+		 		font-size:20px;
+		 		margin:0px;
+		 	}
+		 }
+	}
+}
+
+.list-pabulum{
+	padding:40px 0px;
+	.pabulums{
+		padding:25px 0px;
+		border-bottom:1px solid #e5e5e5;
+		.item-pabulum {
+			float:left;
+			img{
+				width: 69px;
+				height: 69px;
+				border-radius:50%;
+			}
+		}
+		.content-pabulum{
+			float:left;
+			margin-left:30px;
+			padding-top:10px;
+			b{
+
+				a{
+					font-family: 'Philosopher';
+					font-size:16px;
+					color:black;
+				}
+			}
+			p{
+				font-family: 'Philosopher';
+				font-size:14px;
+			}
+		}
+	}
+}
+.mg{
+	margin:0;
+	padding:0;
+}
