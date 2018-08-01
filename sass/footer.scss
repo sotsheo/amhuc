@@ -1,9 +1,16 @@
 footer{
 	background: url("../images/bg-footer.png");
+	background-size: cover;
 	.col-lg-4{
 		margin:70px 0px;
 		.contact-logo{
 			text-align:center;
+			.content-logo{
+				ul{
+					padding: 0px;
+				}
+			}
+			
 		}
 		.content-logo{
 			p{
@@ -48,6 +55,10 @@ footer{
 			.name-item{
 				margin-left:20px;
 				float:left;
+				@media (max-width: 400px){
+					width: 70%;
+					float:left;
+				}
 				p{
 					 font-family: 'Open Sans', sans-serif;
 					 margin:0px;
@@ -92,6 +103,8 @@ footer{
 	hr{
 		background: #3e3f40;
 		height: 2px;
+		margin:0px;
+		padding:0px;
 	}
 }
 
@@ -101,5 +114,7 @@ footer{
 		 font-family: 'Open Sans', sans-serif;
 					font-size:13px;
 					color:#6b6c6e;
+					padding: 33px 0px;
+					display: block;
 	}
 }

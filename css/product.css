@@ -688,7 +688,7 @@ a[data-zoom-id] img, .mz-thumb img {
 #owl-detail {
     opacity: 1;
     display: block;
-    width: 400px;
+    width: 80%;
     margin: 30px auto;
     display: inline-block !important;
     float: initial;

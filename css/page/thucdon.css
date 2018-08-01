@@ -2,31 +2,48 @@
   padding: 95px 0px 75px 0px;
   background: url("../../images/bg-category.png");
   background-size: cover; }
-  .list-category .regular > button {
-    display: none !important; }
-  .list-category .regular .slick-slide {
-    height: auto; }
-  .list-category .regular .slick-dots {
-    display: none !important; }
-  .list-category .regular .item-c .img-c {
-    text-align: center; }
-    .list-category .regular .item-c .img-c img {
-      width: 69px;
-      height: 69px;
-      margin: 0 auto; }
-  .list-category .regular .name-c {
-    margin: 20px 0px;
-    text-align: center; }
-    .list-category .regular .name-c a {
-      font-family: 'Philosopher';
-      color: #c60706;
-      font-size: 20px;
-      margin: 0px; }
+  .list-category .category {
+    margin: 0px; }
+    .list-category .category > button {
+      display: none !important; }
+    .list-category .category .slick-slide {
+      height: auto; }
+    .list-category .category .slick-dots {
+      display: none !important; }
+    .list-category .category .item-c .img-c {
+      text-align: center; }
+      .list-category .category .item-c .img-c img {
+        width: 69px;
+        height: 69px;
+        margin: 0 auto; }
+    .list-category .category .name-c {
+      margin: 20px 0px;
+      text-align: center; }
+      .list-category .category .name-c a {
+        font-family: 'Philosopher';
+        color: #424242;
+        font-size: 20px;
+        margin: 0px; }
+        .list-category .category .name-c a:hover {
+          text-decoration: none; }
 
 .list-pabulum {
   padding: 40px 0px; }
+  .list-pabulum .col-lg-4:nth-last-of-type(1) .pabulums {
+    border-bottom: none; }
+  .list-pabulum .col-lg-4:nth-last-of-type(2) .pabulums {
+    border-bottom: none; }
+    @media (max-width: 767px) {
+      .list-pabulum .col-lg-4:nth-last-of-type(2) .pabulums {
+        border-bottom: 1px solid #e5e5e5; } }
+  .list-pabulum .col-lg-4:nth-last-of-type(3) .pabulums {
+    border-bottom: none; }
+    @media (max-width: 992px) {
+      .list-pabulum .col-lg-4:nth-last-of-type(3) .pabulums {
+        border-bottom: 1px solid #e5e5e5; } }
   .list-pabulum .pabulums {
     padding: 25px 0px;
+    display: block;
     border-bottom: 1px solid #e5e5e5; }
     .list-pabulum .pabulums .item-pabulum {
       float: left; }
@@ -44,10 +61,14 @@
         color: black; }
       .list-pabulum .pabulums .content-pabulum p {
         font-family: 'Philosopher';
-        font-size: 14px; }
+        font-size: 14px;
+        color: #c60706; }
 
 .mg {
   margin: 0;
   padding: 0; }
+  @media (max-width: 576px) {
+    .mg {
+      padding: 0px 20px; } }
 
 /*# sourceMappingURL=thucdon.css.map */

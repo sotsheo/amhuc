@@ -58,6 +58,12 @@
   .main .menu-category > img {
     width: 100%;
     height: 965px; }
+    @media (max-width: 375px) {
+      .main .menu-category > img {
+        height: 1085px; } }
+  @media (max-width: 375px) {
+    .main .menu-category .regular .slick-slide {
+      margin: 0px !important; } }
   .main .menu-category .title-category span {
     font-family: 'Philosopher-regular';
     font-size: 40px;
@@ -107,6 +113,9 @@
       margin: 0px;
       border: 1px solid #b55606;
       padding: 30px 20px; }
+      @media (max-width: 576px) {
+        .main .menu-category .regular .content-menu1 ul {
+          padding: 30px 10px; } }
       .main .menu-category .regular .content-menu1 ul li {
         list-style: none;
         padding: 7px 0px;
@@ -115,6 +124,11 @@
           float: left;
           position: relative;
           overflow: hidden; }
+          @media (max-width: 576px) {
+            .main .menu-category .regular .content-menu1 ul li .name-category {
+              width: 80%; } }
+        .main .menu-category .regular .content-menu1 ul li .price-category {
+          color: red; }
         .main .menu-category .regular .content-menu1 ul li .name {
           position: absolute;
           left: 0;
@@ -177,6 +191,9 @@
     @media (max-width: 576px) {
       .content-food-left .slider-product .slick-slide {
         height: 346px; } }
+    @media (max-width: 767px) {
+      .content-food-left .slider-product .slick-slide {
+        height: 524px; } }
 .content-food-left .list-category {
   width: 25%;
   float: left;
@@ -247,10 +264,10 @@
       width: 100%; } }
   @media (max-width: 576px) {
     .content-food-right {
-      height: 720px; } }
+      height: 850px; } }
   @media (max-width: 400px) {
     .content-food-right {
-      height: 850px; } }
+      padding: 95px 45px; } }
   .content-food-right .title-food-r {
     text-align: center;
     font-family: 'Philosopher-regular', sans-serif;
@@ -286,6 +303,9 @@
   @media (max-width: 1200px) {
     .booth {
       padding: 90px 60px 60px 60px; } }
+  @media (max-width: 576px) {
+    .booth {
+      padding: 90px 30px 60px 30px; } }
   .booth .title-b {
     text-align: center;
     margin-bottom: 25px; }
@@ -339,128 +359,129 @@
         .booth .slick-slide img {
           width: 100%; } }
 
-.news .content-left .items-news:nth-child(even) .content-item:after {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 0;
-  height: 0;
-  top: 50%;
-  z-index: 10;
-  margin-top: -50px;
-  border-style: solid;
-  border-width: 20px 0px 20px 20px;
-  border-color: transparent transparent transparent #faf3e8;
-  right: -20px; }
-.news .content-left .items-news:nth-child(odd) .content-item:before {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 0;
-  height: 0;
-  top: 50%;
-  z-index: 12;
-  margin-top: -50px;
-  border-style: solid;
-  border-width: 20px 20px 20px 0px;
-  border-color: transparent #faf3e8 transparent transparent;
-  left: -20px; }
-.news .title-news {
-  text-align: center; }
-  .news .title-news span {
-    font-size: 40px;
-    color: #c60706;
-    font-family: 'Philosopher-regular'; }
-    @media (max-width: 992px) {
-      .news .title-news span {
-        font-size: 30px; } }
-  .news .title-news img {
-    margin-top: -20px; }
-    @media (max-width: 767px) {
-      .news .title-news img {
-        display: none; } }
-.news .container {
-  padding: 90px 0px 0px 0px; }
-.news .content-left {
-  float: left;
-  width: 50%; }
-  @media (max-width: 992px) {
-    .news .content-left {
-      width: 100%; } }
-.news .items-news {
-  background: #faf3e8;
-  width: 100%; }
-  .news .items-news .img-item {
-    width: 50%;
-    float: left; }
-    .news .items-news .img-item img {
-      filter: grayscale(100%);
-      transition: all .5s;
-      height: 292px;
-      width: 100%; }
-      @media (max-width: 576px) {
-        .news .items-news .img-item img {
-          height: 224px; } }
-  .news .items-news:hover .img-item img {
-    filter: none; }
-  .news .items-news .content-item {
-    position: relative;
-    width: 50%;
-    float: left;
-    padding: 30px;
-    height: 292px; }
-    @media (max-width: 1200px) {
-      .news .items-news .content-item {
-        padding: 20px; } }
-    @media (max-width: 992px) {
-      .news .items-news .content-item {
-        padding: 30px; } }
-    @media (max-width: 767px) {
-      .news .items-news .content-item {
-        padding: 20px; } }
-    @media (max-width: 576px) {
-      .news .items-news .content-item {
-        padding: 10px;
-        height: 224px; } }
-    .news .items-news .content-item h2 {
-      font-size: 25px;
+.news {
+  padding: 90px 0px; }
+  .news .content-left .items-news:nth-child(even) .content-item:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 50%;
+    z-index: 10;
+    margin-top: -50px;
+    border-style: solid;
+    border-width: 20px 0px 20px 20px;
+    border-color: transparent transparent transparent #faf3e8;
+    right: -20px; }
+  .news .content-left .items-news:nth-child(odd) .content-item:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 50%;
+    z-index: 12;
+    margin-top: -50px;
+    border-style: solid;
+    border-width: 20px 20px 20px 0px;
+    border-color: transparent #faf3e8 transparent transparent;
+    left: -20px; }
+  .news .title-news {
+    text-align: center;
+    margin-bottom: 35px; }
+    .news .title-news span {
+      font-size: 40px;
+      color: #c60706;
       font-family: 'Philosopher-regular'; }
-      @media (max-width: 1200px) {
-        .news .items-news .content-item h2 {
-          font-size: 20px; } }
       @media (max-width: 992px) {
-        .news .items-news .content-item h2 {
-          font-size: 25px; } }
+        .news .title-news span {
+          font-size: 30px; } }
+    .news .title-news img {
+      margin-top: -20px; }
       @media (max-width: 767px) {
-        .news .items-news .content-item h2 {
-          font-size: 20px; } }
-      @media (max-width: 576px) {
-        .news .items-news .content-item h2 {
-          font-size: 15px; } }
-      .news .items-news .content-item h2 a {
-        color: black; }
-    .news .items-news .content-item p {
-      font-size: 14px;
-      font-family: 'Open Sans', sans-serif; }
+        .news .title-news img {
+          display: none; } }
+  .news .content-left {
+    float: left;
+    width: 50%; }
+    @media (max-width: 992px) {
+      .news .content-left {
+        width: 100%; } }
+  .news .items-news {
+    background: #faf3e8;
+    width: 100%; }
+    .news .items-news .img-item {
+      width: 50%;
+      float: left; }
+      .news .items-news .img-item img {
+        filter: grayscale(100%);
+        transition: all .5s;
+        height: 292px;
+        width: 100%; }
+        @media (max-width: 576px) {
+          .news .items-news .img-item img {
+            height: 224px; } }
+    .news .items-news:hover .img-item img {
+      filter: none; }
+    .news .items-news .content-item {
+      position: relative;
+      width: 50%;
+      float: left;
+      padding: 30px;
+      height: 292px; }
       @media (max-width: 1200px) {
-        .news .items-news .content-item p {
-          font-size: 12px; } }
+        .news .items-news .content-item {
+          padding: 20px; } }
       @media (max-width: 992px) {
-        .news .items-news .content-item p {
-          font-size: 14px; } }
+        .news .items-news .content-item {
+          padding: 30px; } }
       @media (max-width: 767px) {
-        .news .items-news .content-item p {
-          font-size: 12px; } }
+        .news .items-news .content-item {
+          padding: 20px; } }
       @media (max-width: 576px) {
-        .news .items-news .content-item p {
-          font-size: 10px; } }
-    .news .items-news .content-item > a {
-      color: #ca2a28;
-      font-family: 'Philosopher-regular';
-      font-size: 16px; }
-    .news .items-news .content-item .calendar {
-      font-size: 13px;
-      color: #8d8d8d; }
+        .news .items-news .content-item {
+          padding: 10px;
+          height: 224px; } }
+      .news .items-news .content-item h2 {
+        font-size: 25px;
+        font-family: 'Philosopher-regular'; }
+        @media (max-width: 1200px) {
+          .news .items-news .content-item h2 {
+            font-size: 20px; } }
+        @media (max-width: 992px) {
+          .news .items-news .content-item h2 {
+            font-size: 25px; } }
+        @media (max-width: 767px) {
+          .news .items-news .content-item h2 {
+            font-size: 20px; } }
+        @media (max-width: 576px) {
+          .news .items-news .content-item h2 {
+            font-size: 15px; } }
+        .news .items-news .content-item h2 a {
+          color: black; }
+      .news .items-news .content-item p {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif; }
+        @media (max-width: 1200px) {
+          .news .items-news .content-item p {
+            font-size: 12px; } }
+        @media (max-width: 992px) {
+          .news .items-news .content-item p {
+            font-size: 14px; } }
+        @media (max-width: 767px) {
+          .news .items-news .content-item p {
+            font-size: 12px; } }
+        @media (max-width: 576px) {
+          .news .items-news .content-item p {
+            font-size: 10px; } }
+      .news .items-news .content-item > a {
+        color: #ca2a28;
+        font-family: 'Philosopher-regular';
+        font-size: 16px; }
+      .news .items-news .content-item .calendar {
+        font-size: 13px;
+        color: #8d8d8d; }
 
 .address-contact {
   padding: 90px 0px;
@@ -518,12 +539,13 @@
   position: relative; }
   .slide-cuisine i {
     position: absolute;
-    bottom: -60px;
-    color: white;
+    bottom: -65px;
+    color: #b3b3b3;
     padding: 12px 14px;
-    background: #b55606;
+    /* background: #b55606; */
     border-radius: 50%;
-    z-index: 999; }
+    border: 1px solid #b3b3b3;
+    z-index: 9999; }
   .slide-cuisine .fa-chevron-left {
     left: 30%; }
     @media (max-width: 767px) {
@@ -545,7 +567,7 @@
   position: relative; }
   .booth i {
     position: absolute;
-    top: 45%;
+    top: 35%;
     color: white;
     padding: 12px 14px;
     background: #b55606;
@@ -555,5 +577,9 @@
     left: -30px; }
   .booth .fa-chevron-right {
     right: -30px; }
+
+@media (max-width: 567px) {
+  .mg-4 {
+    margin: 40px 0px; } }
 
 /*# sourceMappingURL=index.css.map */

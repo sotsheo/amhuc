@@ -15,6 +15,7 @@
       margin: 0px;
       list-style: none; }
       .main .category ul li a {
+        font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         color: #717171;
         float: left;
@@ -22,7 +23,12 @@
         border-bottom: 1px solid #ebebeb;
         border-left: 1px solid #ebebeb;
         border-right: 1px solid #ebebeb;
-        width: 100%; }
+        width: 100%;
+        transition: all .5s; }
+        .main .category ul li a:hover {
+          text-decoration: none;
+          background: #717171;
+          color: white; }
   .main .cover {
     margin-top: 40px; }
     .main .cover h2 {
@@ -58,7 +64,13 @@
   border: 1px solid #e8bf4d; }
   .item-product .img-product img {
     width: 100%;
-    height: 245px; }
+    height: 245px;
+    transition: all .5s; }
+  .item-product .img-product a {
+    display: block;
+    overflow: hidden; }
+    .item-product .img-product a:hover img {
+      transform: scale(1.1, 1.1); }
 .item-product .name-product h2 {
   font-family: 'Philosopher-regular';
   font-size: 25px;

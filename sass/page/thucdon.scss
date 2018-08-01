@@ -2,7 +2,8 @@
 	padding:95px 0px 75px 0px;
 	background: url("../../images/bg-category.png");
 	background-size:cover;
-	.regular {
+	.category {
+		margin:0px;
 		
 		 >button{
 		 	display: none !important;
@@ -31,9 +32,12 @@
 		 	a{
 		 		
 		 		font-family: 'Philosopher';
-		 		color:#c60706;
+		 		color:#424242;
 		 		font-size:20px;
 		 		margin:0px;
+		 		&:hover{
+		 			text-decoration: none;
+		 		}
 		 	}
 		 }
 	}
@@ -41,9 +45,39 @@
 
 .list-pabulum{
 	padding:40px 0px;
+	.col-lg-4{
+
+		&:nth-last-of-type(1){
+			.pabulums{
+				border-bottom:none;
+			}
+			
+		}
+		&:nth-last-of-type(2){
+			
+			.pabulums{
+				border-bottom:none;
+				@media (max-width: 767px){
+    					border-bottom:1px solid #e5e5e5;
+    				}
+			}
+		}
+		&:nth-last-of-type(3){
+			
+			.pabulums{
+				border-bottom:none;
+				@media (max-width: 992px){
+    					border-bottom:1px solid #e5e5e5;
+    				}
+			}
+		}
+	}
+	
 	.pabulums{
 		padding:25px 0px;
+		display: block;
 		border-bottom:1px solid #e5e5e5;
+		
 		.item-pabulum {
 			float:left;
 			img{
@@ -67,6 +101,7 @@
 			p{
 				font-family: 'Philosopher';
 				font-size:14px;
+				color:#c60706;
 			}
 		}
 	}
@@ -74,4 +109,7 @@
 .mg{
 	margin:0;
 	padding:0;
+	@media (max-width: 576px){
+    		padding:0px 20px;
+    	}
 }

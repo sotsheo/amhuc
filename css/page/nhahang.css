@@ -20,7 +20,7 @@
     .address-restaurant .content-ad b {
       font-size: 16px;
       color: #575757;
-      font-family: 'Open Sans', sans-serif; }
+      font-family: 'Philosopher'; }
       @media (max-width: 370px) {
         .address-restaurant .content-ad b {
           font-size: 14px; } }
@@ -36,7 +36,8 @@
     background: url("../../images/bg-add.jpg");
     text-align: center; }
     .address-restaurant .add-img img {
-      width: 100%; }
+      width: 100%;
+      height: 271px; }
   .address-restaurant .md {
     padding: 33px 0px; }
 

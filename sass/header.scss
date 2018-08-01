@@ -18,6 +18,9 @@
 }
 // Header top
 .menu-top{
+	a:hover{
+		text-decoration: none;
+	}
 	height: 40px;
 	background: #c60706;
 	.menu-top-left{
@@ -125,7 +128,7 @@
 				z-index: 9999;
 				width: 200px;
 				opacity:0;
-				visibility: hiden;
+				visibility: hidden;
 				height: 40px;
 				left: -109px;
 				transition:all .5s;
@@ -321,21 +324,30 @@
 	}
 	.logo{
 		position: absolute;
-    left: 0px;
-    right: 0px;
-    width: 220px;
-    height: 140px;
-    margin: 0 auto;
-    text-align: center;
-    top: 0px;
-    background: #fff;
-    padding-top: 20px;
-    border-radius: 50%;
-    border: 10px solid #fff;
-    transition: all 1s;
+	    left: 0px;
+	    right: 0px;
+	    width: 220px;
+	    height: 140px;
+	    margin: 0 auto;
+	    text-align: center;
+	    top: 0px;
+	    background: #fff;
+	    padding-top: 20px;
+	    border-radius: 50%;
+	    border: 10px solid #fff;
+	    transition: all 1s;
 	    img{
 	    	transition: all .1s;
+	    	@media (max-width:992px){
+				        width: 110px !important;
+    height: 55px !important;
+			}
 	    }
+	    @media (max-width:992px){
+				    width: 160px !important;
+				    padding-top:0px !important;
+    				    height: 75px !important;
+			}
 	}
 	.container{
 		transition: all 3s;
@@ -384,7 +396,7 @@
 	}
 	.content-phone{
 		margin-left:15px;
-
+		display:none;
 		float:left;
 		font-family: 'Philosopher', sans-serif;
 		p{
@@ -413,7 +425,7 @@
 		padding-top:90px;
 		.title-news{
 		text-align:center;
-		margin-bottom:35px;
+		margin-bottom:20px;
 		span{
 			font-size:40px;
 			font-family: 'Philosopher-regular';
@@ -482,4 +494,56 @@
     
     .slick-active {
       opacity: 1;
+    }
+    .panner{
+    	position: relative;
+    	img{
+    		width:100%;
+    	}
+    	.text-panner{
+    		position: absolute;
+    		
+			width: 100%;
+    		text-align: center;
+    		@media (max-width: 1920px){
+					top: calc(50% - 12%);
+				}
+    		@media (max-width: 767px){
+					top: calc(50% - 30%);
+				}
+				@media (max-width: 478px){
+					top: calc(50% - 15%);
+				}
+    		h2{
+    			color:white;
+    			font-family: 'Philosopher';
+    			font-size:60px;
+    			margin:0px;
+    			@media (max-width: 767px){
+					font-size:30px;
+				}
+				@media (max-width: 576px){
+					font-size:16px;
+				}
+    		}
+    		p{
+    			color:white;
+    			font-family: 'Open Sans', sans-serif;
+    			font-size:14px;
+    		}
+    		a{
+    			color:white;
+    			
+    			@media (max-width: 767px){
+					font-size:12px;
+				}
+				@media (max-width: 576px){
+					font-size:9px;
+				}
+				&:hover{
+					text-decoration: none;
+				}
+    			
+    		}
+    	}
     }

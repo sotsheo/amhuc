@@ -15,6 +15,7 @@
       margin: 0px;
       list-style: none; }
       .main .category ul li a {
+        font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         color: #717171;
         float: left;
@@ -22,7 +23,12 @@
         border-bottom: 1px solid #ebebeb;
         border-left: 1px solid #ebebeb;
         border-right: 1px solid #ebebeb;
-        width: 100%; }
+        width: 100%;
+        transition: all .5s; }
+        .main .category ul li a:hover {
+          text-decoration: none;
+          background: #717171;
+          color: white; }
   .main .cover {
     margin-top: 40px; }
     .main .cover h2 {

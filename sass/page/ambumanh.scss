@@ -1,9 +1,28 @@
 .img-abum{
 	width: 100%;
 	height: 291px;
+	position: relative;
+	cursor: pointer;
 	img{
 		width: 100%;
 		height: 100%;
+	}
+	&:hover{
+		.searchs{
+			visibility: visible;;
+			opacity:1;
+		}
+		
+	}
+	.searchs{
+		transition:all .5s;
+		overflow: hidden;
+		opacity:0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;		
 	}
 }
 .pd{
