@@ -30,8 +30,8 @@
 					transition:all .5s;
 					&:hover{
 						text-decoration: none;
-						background: #717171;
-						color:white;
+						
+						color:#880505;
 
 					}
 				}
@@ -64,7 +64,7 @@
 				color:#717171;
 				a{
 					font-family: 'Open Sans', sans-serif;
-					color:red;
+					color:#c60706;
 					font-weight: 700;
 				}
 			}
@@ -83,6 +83,10 @@
 		font-family: 'Open Sans', sans-serif;
 		font-size:14px;
 		color:#717171;
+		margin-bottom:22px;
+		b{
+		margin-right:5px;
+		}
 	}
 	.price{
 		font-size:18px;
@@ -252,4 +256,16 @@
 		}
 	}
 	
+}
+.detail-product{
+	h1{
+	font-size:25px;
+	color:#c60706;
+	font-family: 'Philosopher-regular', sans-serif;
+	margin:10px 0px;
+	}
+	hr{
+	margin:0px;
+	margin-bottom:30px;
+	}
 }

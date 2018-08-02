@@ -28,8 +28,7 @@
         transition: all .5s; }
         .main .category ul li a:hover {
           text-decoration: none;
-          background: #717171;
-          color: white; }
+          color: #880505; }
   .main .cover {
     margin-top: 40px; }
     .main .cover h2 {
@@ -55,7 +54,7 @@
         color: #717171; }
         .main .cover ul li a {
           font-family: 'Open Sans', sans-serif;
-          color: red;
+          color: #c60706;
           font-weight: 700; }
 
 .detail-product h2 {
@@ -65,7 +64,10 @@
 .detail-product p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #717171; }
+  color: #717171;
+  margin-bottom: 22px; }
+  .detail-product p b {
+    margin-right: 5px; }
 .detail-product .price {
   font-size: 18px;
   color: #c60706; }
@@ -182,5 +184,14 @@
 .nav li a {
   border: 1px solid #ddd;
   border-bottom-color: transparent; }
+
+.detail-product h1 {
+  font-size: 25px;
+  color: #c60706;
+  font-family: 'Philosopher-regular', sans-serif;
+  margin: 10px 0px; }
+.detail-product hr {
+  margin: 0px;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=chitietsanpham.css.map */

@@ -57,7 +57,7 @@
 	  asNavFor: '.vertical-center-4'
 	});
 	$('.vertical-center-4').slick({
-	  slidesToShow: 4,
+	  slidesToShow: 6,
 	  slidesToScroll: 1,
 	  asNavFor: '.lazy',
 	  dots: true,
@@ -65,7 +65,6 @@
       centerMode: true,
       autoplay:true,
   	  autoplaySpeed:3000,
-      slidesToShow: 4,
       prevArrow:"<i class='fa fa-angle-left ' aria-hidden='true'></i>",
       nextArrow:"<i class='fa fa-angle-right ' aria-hidden='true'></i>",
       slidesToScroll: 2,
@@ -172,7 +171,7 @@
 		      }
 		    },
 		    {
-		      breakpoint: 480,
+		      breakpoint: 576,
 		      settings: {
 		        slidesToShow: 1,
 		        slidesToScroll: 1

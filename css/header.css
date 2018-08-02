@@ -47,7 +47,10 @@
           display: none; } }
     .menu-top .menu-top-left .md {
       float: left;
-      color: #ffffff; }
+      margin-top: 3px;
+      height: 16px;
+      color: #ffffff;
+      overflow: hidden; }
       @media (max-width: 992px) {
         .menu-top .menu-top-left .md {
           display: none; } }
@@ -110,6 +113,7 @@
             border-radius: 10px;
             font-size: 12px; }
           .menu-top .menu-top-right .search .form-search form button {
+            cursor: pointer;
             padding: 8px 19px;
             outline: none;
             position: absolute;

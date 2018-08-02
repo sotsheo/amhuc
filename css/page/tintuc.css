@@ -36,7 +36,8 @@
     font-size: 14px; }
   .content-news a {
     color: #c60706;
-    font-size: 16px; }
+    font-size: 16px;
+    font-weight: 600; }
 
 .main {
   padding: 69px 0px; }
@@ -73,5 +74,9 @@
       .list-page ul li:last-child a:hover i {
         background: #c60706;
         color: white; }
+
+.list-page .active {
+  background: #c60706;
+  color: white; }
 
 /*# sourceMappingURL=tintuc.css.map */

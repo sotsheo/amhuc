@@ -27,8 +27,7 @@
         transition: all .5s; }
         .main .category ul li a:hover {
           text-decoration: none;
-          background: #717171;
-          color: white; }
+          color: #880505; }
   .main .cover {
     margin-top: 40px; }
     .main .cover h2 {
@@ -54,7 +53,7 @@
         color: #717171; }
         .main .cover ul li a {
           font-family: 'Open Sans', sans-serif;
-          color: red;
+          color: #c60706;
           font-weight: 700; }
 
 .item-product a:hover {

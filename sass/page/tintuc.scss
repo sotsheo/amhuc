@@ -54,7 +54,7 @@
 	a{
 		color:#c60706;
 		font-size:16px;
-
+    font-weight: 600;
 
 	}
 }
@@ -110,5 +110,11 @@
 			}
 		}
 		
+	}
+}
+.list-page{
+	.active{
+		background: #c60706;
+		color:white;
 	}
 }
