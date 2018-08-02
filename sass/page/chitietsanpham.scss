@@ -2,6 +2,7 @@
 	padding:50px 0px;
 	.category{
 		h2{
+			text-transform: uppercase;			
 			font-size:18px;
 			font-family: 'Philosopher';
 			padding: 20px 0px;
@@ -93,7 +94,7 @@
 		text-align:center;
 		font-size:14px;
 		background:transparent;
-		border:2px solid #dbdbdb;
+		border:1px solid #dbdbdb;
 		color: #949494;
 		outline: none;
 	}
@@ -108,29 +109,31 @@
 	}
 	#up{
 		border-radius:0px 5px 5px 0px;
-		border-bottom:2px solid #dbdbdb;
-		border-right:2px solid #dbdbdb;
-		border-top:2px solid #dbdbdb;
+		border-bottom:1px solid #dbdbdb;
+		border-right:1px solid #dbdbdb;
+		border-top:1px solid #dbdbdb;
 		border-left:none;
 	}	
 	#reduction{
 		border-radius:5px 0px 0px 5px;
-		border-bottom:2px solid #dbdbdb;
-		border-left:2px solid #dbdbdb;
-		border-top:2px solid #dbdbdb;
+		border-bottom:1px solid #dbdbdb;
+		border-left:1px solid #dbdbdb;
+		border-top:1px solid #dbdbdb;
 		border-right:none;
 	}
 	a{
-		width: 200px;padding:15px;
-		text-align:center;
-		display: block;
-		background: #c60706;
-		margin: 20px 0px;
-		font-size:14px;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 700;
-		color:white;
-		border-radius:4px;
+		width: 200px;
+	    padding: 13px;
+	    text-align: center;
+	    display: block;
+	    background: #c60706;
+	    margin: 20px 0px;
+	    font-size: 14px;
+	    font-family: 'Roboto', sans-serif;
+	    font-weight: 700;
+	    height: 44px;
+	    color: white;
+	    border-radius: 4px;
 		i{
 			margin:0px 10px;
 		}
@@ -235,4 +238,18 @@
 		}
    	 	}
 	}
+}
+.nav {
+	li{
+		
+		a{
+			border: 1px solid #ddd;
+			border-bottom-color: transparent;
+		}
+		
+		.active{
+			
+		}
+	}
+	
 }

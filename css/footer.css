@@ -25,11 +25,6 @@ footer {
       margin-top: 25px; }
     footer .col-lg-4 .content-if .img-item {
       float: left; }
-      footer .col-lg-4 .content-if .img-item i {
-        padding: 15px 20px;
-        border: 1px solid #404246;
-        border-radius: 50%;
-        color: #cfd0d0; }
     footer .col-lg-4 .content-if .name-item {
       margin-left: 20px;
       float: left; }
@@ -54,16 +49,20 @@ footer {
       color: white; }
       footer .col-lg-4 .content form input {
         width: 100%;
-        padding: 17px 25px;
+        padding: 13px 25px;
+        height: 50px;
         border-radius: 43px;
         outline: none;
         background: transparent;
         border: 1px solid #57595e; }
       footer .col-lg-4 .content form input[type="submit"] {
+        cursor: pointer;
         margin-top: 15px;
         background: #57595d;
         border: none;
         color: white; }
+      footer .col-lg-4 .content p {
+        color: #cfcfd0; }
   footer hr {
     background: #3e3f40;
     height: 2px;
@@ -78,5 +77,15 @@ footer {
     color: #6b6c6e;
     padding: 33px 0px;
     display: block; }
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #404246;
+  border-radius: 50%;
+  color: #cfd0d0;
+  text-align: center; }
+  .icon i {
+    margin-top: 14px; }
 
 /*# sourceMappingURL=footer.css.map */

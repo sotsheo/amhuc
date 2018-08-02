@@ -6,8 +6,8 @@
 		  dots: true,
 		  infinite: true,
 		  speed: 300,
-		  autoplay:true,
-  		  autoplaySpeed:1500,
+		  // autoplay:true,
+  		//   autoplaySpeed:2500,
 		  arrows:true,
 		  slidesToShow: 3,
 		  slidesToScroll: 1,
@@ -63,11 +63,11 @@
 	  dots: true,
 	  vertical: true,
       centerMode: true,
-       autoplay:true,
-  		  autoplaySpeed:3000,
+      autoplay:true,
+  	  autoplaySpeed:3000,
       slidesToShow: 4,
-      prevArrow:"<i class='fa fa-chevron-left ' aria-hidden='true'></i>",
-      nextArrow:"<i class='fa fa-chevron-right ' aria-hidden='true'></i>",
+      prevArrow:"<i class='fa fa-angle-left ' aria-hidden='true'></i>",
+      nextArrow:"<i class='fa fa-angle-right ' aria-hidden='true'></i>",
       slidesToScroll: 2,
       responsive: [
 		    {
@@ -102,7 +102,7 @@
 		   dots: true,
 		  infinite: true,
 		  autoplay:true,
-  		  autoplaySpeed:1500,
+  		  autoplaySpeed:2500,
 		  arrows:true,
 		  speed: 300,
 		  slidesToShow: 4,
@@ -140,11 +140,11 @@
 		  infinite: true,
 		  speed: 300,
 		  autoplay:true,
-  		  autoplaySpeed:1500,
+  		  autoplaySpeed:2500,
 		  slidesToShow: 6,
 		  slidesToScroll: 1,
-		   prevArrow:"<i class='fa fa-chevron-left ' aria-hidden='true'></i>",
-      nextArrow:"<i class='fa fa-chevron-right ' aria-hidden='true'></i>",
+		   prevArrow:"<i class='fa fa-angle-left ' aria-hidden='true'></i>",
+      nextArrow:"<i class='fa fa-angle-right ' aria-hidden='true'></i>",
 		  responsive: [
 		  {
 		      breakpoint: 1600,
@@ -188,7 +188,7 @@
 		  infinite: true,
 		  speed: 300,
 		  autoplay:true,
-  		  autoplaySpeed:1500,
+  		  autoplaySpeed:2500,
 		  slidesToShow: 6,
 		  slidesToScroll: 1,
 		  responsive: [
@@ -234,11 +234,11 @@
 		  infinite: true,
 		  speed: 300,
 		  autoplay:true,
-  		  autoplaySpeed:1500,
+  		  autoplaySpeed:2500,
 		  slidesToShow: 3,
 		  slidesToScroll: 1,
-		   prevArrow:"<i class='fa fa-chevron-left ' aria-hidden='true'></i>",
-      	nextArrow:"<i class='fa fa-chevron-right ' aria-hidden='true'></i>",
+		   prevArrow:"<i class='fa fa-angle-left ' aria-hidden='true'></i>",
+      	nextArrow:"<i class='fa fa-angle-right ' aria-hidden='true'></i>",
 		  responsive: [
 		  
 		    {
@@ -271,8 +271,8 @@
         lazyLoad: 'ondemand', // ondemand progressive anticipated
         infinite: true,
 		
-		  autoplay:true,
-  		  autoplaySpeed:2500,
+		  // autoplay:true,
+  		//   autoplaySpeed:4000,
       });
 
        	 $('.category').slick({
@@ -280,7 +280,7 @@
 		   dots: true,
 		  infinite: true,
 		  autoplay:true,
-  		  autoplaySpeed:1500,
+  		  autoplaySpeed:300,
 		  arrows:true,
 		  speed: 300,
 		  slidesToShow: 6,

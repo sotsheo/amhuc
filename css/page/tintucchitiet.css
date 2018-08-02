@@ -89,7 +89,8 @@
       .news-care .content-news p a {
         color: #717171; }
         .news-care .content-news p a:hover {
-          text-decoration: none; }
+          text-decoration: none;
+          color: #880505; }
 
 .content-newss h2 {
   font-size: 30px;
@@ -116,6 +117,8 @@
 .content-newss .tag {
   float: left;
   color: #8d8d8d; }
+  .content-newss .tag a {
+    color: #8d8d8d; }
 .content-newss .share {
   float: right;
   color: #8d8d8d; }

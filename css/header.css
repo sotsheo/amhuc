@@ -182,7 +182,7 @@
           .menu .menu-left > ul .menu-one li a {
             display: block;
             width: 100%;
-            padding: 10px 0px 10px 0px; }
+            padding: 10px 0px 10px 10px; }
           .menu .menu-left > ul .menu-one li:hover .menu-2 {
             display: block;
             left: 100%;
@@ -271,7 +271,22 @@
 .slide .lazys .slick-slide {
   padding: 0px !important;
   margin: 0px !important;
-  height: auto; }
+  height: auto;
+  position: relative; }
+  .slide .lazys .slick-slide p {
+    position: absolute;
+    transition: all  ease-in 5s;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    color: red;
+    opacity: 0; }
+  .slide .lazys .slick-slide.slick-active p {
+    opacity: 1;
+    top: 20%; }
 
 .phone-hn {
   position: fixed;
@@ -290,7 +305,7 @@
       color: white; }
   .phone-hn .content-phone {
     margin-left: 15px;
-    display: none;
+    display: block;
     float: left;
     font-family: 'Philosopher', sans-serif; }
     .phone-hn .content-phone p {
@@ -314,6 +329,7 @@
     text-align: center;
     margin-bottom: 20px; }
     .photo-library .title-news span {
+      margin: 0px 40px;
       font-size: 40px;
       font-family: 'Philosopher-regular';
       color: #c60706; }

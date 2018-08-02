@@ -19,8 +19,8 @@
 		 	.img-c{
 		 		text-align:center;
 		 		img{
-		 			width: 69px;
-		 			height:69px;
+		 			width: inherit;
+		 			height:35px;
 		 			margin:0 auto;
 		 		}
 		 		
@@ -46,7 +46,7 @@
 .list-pabulum{
 	padding:40px 0px;
 	.col-lg-4{
-
+		
 		&:nth-last-of-type(1){
 			.pabulums{
 				border-bottom:none;
@@ -77,6 +77,7 @@
 		padding:25px 0px;
 		display: block;
 		border-bottom:1px solid #e5e5e5;
+		// border-top: 1px solid #e5e5e5;
 		
 		.item-pabulum {
 			float:left;

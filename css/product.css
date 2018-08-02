@@ -689,7 +689,8 @@ a[data-zoom-id] img, .mz-thumb img {
     opacity: 1;
     display: block;
     width: 80%;
-    margin: 30px auto;
+    margin: 15px auto;
+    margin-bottom: 30px;
     display: inline-block !important;
     float: initial;
 }

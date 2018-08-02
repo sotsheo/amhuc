@@ -4,10 +4,20 @@
 	
 	.about{
 		text-align:center;
+		    margin-top: 50px;
 	}
 	.cuisine{
 
 		.slide-c{
+			.slide-cuisine{
+				.slick-list{
+					margin-left:-30px;
+					
+
+				}
+				
+
+			}
 				.slick-prev{
 					   top: calc(100% + 50px);
     					left: 30%;
@@ -30,7 +40,10 @@
     				}
 				}
 				.slick-slide{
-					margin:0px 15px;
+					margin:0px;
+					margin-left:30px;
+
+
 					height: auto;
 				}
 				.slick-dots{
@@ -61,6 +74,7 @@
 				    font-family: 'Philosopher-regular';
     				font-size:40px;
     				color: #c60706;
+    				margin:0px 55px;
     				@media (max-width: 992px){
     					font-size: 30px;
     				}
@@ -75,11 +89,16 @@
 		}
 
 		.content-cuisine{
+			margin-top: 22px;
 			font-size:14px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 400;
 			width: 85%;
 			margin:0 auto;
+			p{
+				margin-bottom:40px;
+				    margin-top: 22px;
+			}
 		}
 	}
 	.menu-category{
@@ -92,10 +111,35 @@
     					height: 1085px;
     				}
 		}
+		.bg-img{
+			height: 100%;
+			position: absolute;
+			left:0;
+			top: 0;
+			width: 100%;
+			
+			img{
+				width:100%;
+				height: 100%;
+				
+			}
+		}
 		.regular {
 			.slick-slide{
+				transition:all .5s;
+				height: 100%;
 				@media (max-width: 375px){
     					margin:0px !important;
+    				}
+    				&:hover{
+
+    					    box-shadow: 0px 13px 9px 8px #ebeae8;
+    					    .content-menu1{
+    					    	background: white;
+    					    	span{
+    					    		background: white;
+    					    	}
+    					    }
     				}
 				
 			}
@@ -106,6 +150,8 @@
 				    font-family: 'Philosopher-regular';
     				font-size:40px;
     				color:white;
+    				margin:0px 55px;
+    				transition:all .1s;
     				@media (max-width: 992px){
     					font-size: 30px;
     				}
@@ -117,25 +163,43 @@
     				}
 			}
 		}
+
+		.slick-dots{
+
+			bottom: -50px;
+			li{
+				button{
+					&:before{
+						color: white;
+						font-size:14px;
+					}
+				}
+			}
+		}
 		.title-menu{
-			position: absolute;
+			
 			width: 100%;
 			text-align:center;
-			top:90px;
+			z-index: 99;
 		}.content-menu{
+			z-index: 10;
 			font-size: 14px;
 		    font-family: 'Open Sans', sans-serif;
 		    font-weight: 400;
 		    width: 85%;
 		    margin: 0 auto;
 		    p{
+
 		    	color: white;
-		    	margin:32px 0px 22px 0px;
+		    	    margin: 23px 0px 35px 0px;
 		    }
+
+		    
 
 		}
 
 			.regular {
+
 						.slick-next{
 							display: none !important;
 						}
@@ -156,12 +220,14 @@
 				    		    margin: 0px;
 				    	}
 				    	
+				    	
 				    }
 				    .slick-slide{
 				    	
 				    }
 				    .content-menu1{
 				    		background: #ebeae8;
+
 				    		padding: 15px;
 				    			ul{
 				    				margin:0px;
@@ -171,9 +237,11 @@
 													padding: 30px 10px;
 										}
 				    				li{
-				    					list-style: none;
-				    					padding: 7px 0px;
-				    					font-size:14px;
+				    					    list-style: none;
+										    padding: 12px 0px;
+										    position: relative;
+										    font-size: 14px;
+										        margin: 10px 0px;
 										.name-category{
 											float:left;
 											position: relative;
@@ -185,23 +253,36 @@
 
 										}
 										.price-category{
-													color:red;
+													color:#c60706;
 												}
 										.name{
-											position: absolute;
-											left: 0;
-											top: 0;
-											background: #ebeae8;
+											    position: absolute;
+											    left: 0;
+											    z-index: 10;
+											    top: 0;
+											    background: #ebeae8;
 
 
 										}
 										.price-category{
-											float:right;
+											   padding-left: 5px;
+											       font-weight: 600;
+											position: absolute;
+										    right: 0;
+										    top: 0;
+										    background: #ebeae8;
+										    z-index: 9;
 										}
 										&:after{
 											content: "\0020";
-											white-space: pre;
-											clear:both;
+										    white-space: pre;
+										    clear: both;
+										    position: absolute;
+										    border: 1px dotted #575757;
+										    width: 100%;
+										    left: 0;
+										    top: 14px;
+										    height: 1px;
 										}
 				    				}
 				    			}
@@ -224,6 +305,7 @@
 			font-size:40px;
 			font-family: 'Philosopher-regular';
 			color: #c60706;
+			margin:0px 40px;
 			@media (max-width: 992px){
 				font-size:30px;
 			}
@@ -413,7 +495,9 @@
 			padding:8px;
 			border:1px solid #e2a706;
 			margin: 0px 15px;
-
+			&:hover{
+				    box-shadow: 1px 3px 1px #988866;
+			}
 		}
 		.slick-list{
 		padding-bottom:35px;
@@ -424,7 +508,7 @@
 			button{
 			&:before{
 					color: red;
-					font-size: 15px;
+					    font-size: 12px;
 
 			}
 				
@@ -454,6 +538,7 @@
 	text-align:center;
 		margin-bottom:25px;
 		span{
+			margin:0px 40px;
 			font-size:40px;
 			color: #c60706;
 			font-family: 'Philosopher-regular';
@@ -516,8 +601,16 @@
 	.img-sile{
 		padding:8px;
 		border:1px solid #e2a706;
+		transition:all .5s;
 	}
 	.slick-slide {
+		&:hover{
+			.img-sile{
+
+			    box-shadow: 1px 3px 1px #988866;
+			    background: white;
+			}
+		}
    	 margin: 0px 15px;
    	 	img{
 	   	 	width:228px;
@@ -577,6 +670,7 @@
 		text-align:center;
 		    margin-bottom: 35px;
 			span{
+				margin:0px 40px;
 				font-size:40px;
 				color: #c60706;
 				font-family: 'Philosopher-regular';
@@ -604,7 +698,10 @@
 	.items-news{
 		background: #faf3e8;
 		width: 100%;
-			
+		transition:all .5s;
+			&:hover{
+				box-shadow:-1px 1px 8px 2px #614848;
+				}
 		.img-item{
 			width:50%;
 			float:left;
@@ -712,6 +809,7 @@
 		text-align:center;
 		margin-bottom:35px;
 		span{
+			margin:0px 40px;
 			font-size:40px;
 			font-family: 'Philosopher-regular';
 			color: white;
@@ -747,6 +845,9 @@
 			margin:10px 0px 0px 0px;
 			font-family: 'Open Sans', sans-serif;
 			font-size:14px;
+			b{
+				font-family: 'Philosopher';
+			}
 		}
 	}
 	.img-map{
@@ -763,39 +864,42 @@
 .vertical-center-4{
 	position: relative;
 	i{
-		position: absolute;
-		bottom: 0;
-		color:white;
-		 padding: 12px 14px;
-		background: #b55606;
-		border-radius:50%;
-		z-index: 999;
+		
+	    position: absolute;
+	   	bottom: -114px;
+	    color: white;
+	    padding: 12px 16px;
+
+	    background: rgba(181,89,6,.5);
+	    border-radius: 50%;
+	    z-index: 99;
+	        border: 1px solid #e2a706;
 		
 	}
-	.fa-chevron-left{
+	.fa-angle-left{
 			left: 10px;
 
 		}
-		.fa-chevron-right{
+		.fa-angle-right{
 			right: 10px;
 		}
 }
 .slide-cuisine{
 	position: relative;
 	i{
-
-		    position: absolute;
-    bottom: -65px;
+        bottom: -69px;
+   
+    position: absolute;
     color: #b3b3b3;
-    padding: 12px 14px;
-    /* background: #b55606; */
+       padding: 12px 18px;
     border-radius: 50%;
     border: 1px solid #b3b3b3;
-    z-index: 9999;
+    z-index: 99;
+    font-weight: 300;
 
 		
 	}
-	.fa-chevron-left{
+	.fa-angle-left{
 			left: 30%;
 			@media (max-width: 767px){
 				left: 20%;
@@ -805,7 +909,7 @@
 			}
 
 		}
-		.fa-chevron-right{
+		.fa-angle-right{
 			right: 30%;
 			@media (max-width: 767px){
 				right: 20%;
@@ -824,18 +928,19 @@
 		position: absolute;
 		top: 35%;
 		color:white;
-		padding: 12px 14px;
-		background: #b55606;
+		padding: 12px 16px;
+		background: rgba(237,197,102,.5);
 		border-radius:50%;
 		z-index: 999;
+		border:1px solid #e3ab13;
 
 		
 	}
-	.fa-chevron-left{
+	.fa-angle-left{
 			left:-30px;
 
 		}
-		.fa-chevron-right{
+		.fa-angle-right{
 			right: -30px;
 		}
 }

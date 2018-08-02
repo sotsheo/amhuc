@@ -109,6 +109,7 @@
 				color:#717171;
 				&:hover{
 					text-decoration: none;
+					color:#880505;
 				}
 			}
 		}
@@ -151,6 +152,9 @@
 	.tag{
 		float:left;
 		color:#8d8d8d;
+		a{
+			color:#8d8d8d;
+		}
 		
 	}
 	.share{

@@ -13,8 +13,8 @@
     .list-category .category .item-c .img-c {
       text-align: center; }
       .list-category .category .item-c .img-c img {
-        width: 69px;
-        height: 69px;
+        width: inherit;
+        height: 35px;
         margin: 0 auto; }
     .list-category .category .name-c {
       margin: 20px 0px;

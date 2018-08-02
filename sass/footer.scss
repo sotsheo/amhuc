@@ -45,10 +45,8 @@ footer{
 			.img-item{
 					float:left;
 					i{
-					padding: 15px 20px;
-					border:1px solid #404246;
-					border-radius:50%;
-					color:#cfd0d0;
+					
+				
 				}
 
 			}
@@ -84,19 +82,25 @@ footer{
 					form{
 						input{
 							width:100%;
-							padding:17px 25px;
+							    padding: 13px 25px;
+							        height: 50px;
 							border-radius:43px;
 							outline: none;
 							background: transparent;
 							border:1px solid #57595e;
 						}
 						input[type="submit"]{
+							cursor: pointer;
+							
 							margin-top:15px;
 							background: #57595d;
 							border:none;
 							color:white;
 						}
 						
+					}
+					p{
+						color:#cfcfd0;
 					}
 		}
 	}
@@ -118,3 +122,16 @@ footer{
 					display: block;
 	}
 }
+
+.icon{
+    	width: 50px;
+    	height: 50px;
+    		border:1px solid #404246;
+					border-radius:50%;
+					color:#cfd0d0;
+					text-align:center;
+					i{
+						margin-top: 14px;
+
+					}
+    }

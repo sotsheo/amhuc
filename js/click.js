@@ -28,5 +28,16 @@
 			$(document).click(function(){
 			   $(".menu-bar-mobile").hide(500);	
 			});
+				$("#up").click(function(){
+					$("#number").val(parseInt($("#number").val())+1);
+
+			});	
+				$("#reduction").click(function(){
+					if((parseInt($("#number").val())-1)>0){
+					$("#number").val(parseInt($("#number").val())-1);
+				}
+					
+					
+			});	
 
 		})
